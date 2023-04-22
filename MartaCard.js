@@ -7,7 +7,7 @@ if (name==undefined){
   name="Russell";
 }
 if (card==undefined){
-  card="Dummy"; //default care value, don't commit with value
+  card="Dummy"; //default card value, don't commit with value
 }
 
 var url="https://balance.breezecard.com/breezeWeb/cardnumber_qa.do?submitButton.x=0&submitButton.y=0&cardnumber=";
@@ -62,8 +62,4 @@ if (hotListed.indexOf("No")>-1){
 
 log(sentence);
 Safari.open("shortcuts://x-callback-url/run-shortcut?name=SpeakScript&input="+encodeURI(sentence));
-
-
-
-
 
