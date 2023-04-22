@@ -14,7 +14,7 @@ There are 3 capabilities.
 - [ ] Update Prediction code to handle various destinations.
 - [ ] Expand these capabilities into iOS Widgets
 
-Link dump:
+## Link dump:
 1. Train Location: http://labs.itsmarta.com/trains/
 2. Bus Location: http://labs.itsmarta.com/bustracker/
 3. Train Locaiton API: http://labs.itsmarta.com/signpost/trains
@@ -22,13 +22,13 @@ Link dump:
 5. Bus Location API: http://labs.itsmarta.com/routerapi/routers
 6. Bus (unknown): http://labs.itsmarta.com/tm-gtfsrt-pos
 
-Apps:
+## Apps:
 1. Pythonista: (Python env for iOS): https://apps.apple.com/us/app/pythonista-3/id1085978097
 2. Scriptable: (free JS env for IOS): https://apps.apple.com/us/app/scriptable/id1405459188
 
 
 
-MARTA station URLs:
+## MARTA station URLs:
 
 https://itsmarta.com/Hamilton-E-Holmes.aspx w5
 
