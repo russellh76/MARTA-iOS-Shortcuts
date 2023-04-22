@@ -1,4 +1,7 @@
-
+// This is code for the pythonista iOS app.
+// You can call it from a shortcut by opening URL 
+// pythonista:///MartaCard.py&argv=12341234123412341234&argv=Russell
+// note the arguments
 
 
 
