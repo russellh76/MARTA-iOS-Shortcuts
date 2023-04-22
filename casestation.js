@@ -120,6 +120,9 @@
       case "NE10":  
         MartaStation=" Doraville ";
         break;
+       case "":  
+        MartaStation=" ERROR: No Station Provided ";
+        break;
       default: 
         MartaStation=" ERROR: "+station;
         break;
