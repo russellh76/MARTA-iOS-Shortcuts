@@ -1,32 +1,38 @@
-https://itsmarta.com/Hamilton-E-Holmes.aspx
-https://itsmarta.com/West-Lake.aspx
-https://itsmarta.com/Ashby.aspx
-https://itsmarta.com/Vine-City.aspx
-https://itsmarta.com/Five-Points.aspx
-https://itsmarta.com/Georgia-State.aspx
-https://itsmarta.com/King-Memorial.aspx
-https://itsmarta.com/Inman-Park.aspx
-https://itsmarta.com/Edgewood-Candler-Park.aspx
-https://itsmarta.com/East-Lake.aspx
-https://itsmarta.com/Decatur.aspx
-https://itsmarta.com/Avondale.aspx
-https://itsmarta.com/Kensington.aspx
-https://itsmarta.com/Indian-Creek.aspx
-https://itsmarta.com/Doraville.aspx
-https://itsmarta.com/Chamblee.aspx
-https://itsmarta.com/Brookhaven.aspx
-https://itsmarta.com/Lenox.aspx
-https://itsmarta.com/Lindbergh.aspx
-https://itsmarta.com/Arts-Center.aspx
-https://itsmarta.com/Midtown.aspx
-https://itsmarta.com/North-Ave.aspx
-https://itsmarta.com/Civic-Center.aspx
-https://itsmarta.com/Peachtree-Center.aspx
-https://itsmarta.com/Five-Points.aspx
-https://itsmarta.com/Garnett.aspx
-https://itsmarta.com/West-End.aspx
-https://itsmarta.com/Oakland-City.aspx
-https://itsmarta.com/Lakewood.aspx
-https://itsmarta.com/East-Point.aspx
-https://itsmarta.com/College-Park.aspx
-https://itsmarta.com/Airport.aspx
+https://itsmarta.com/Hamilton-E-Holmes.aspx w5
+https://itsmarta.com/West-Lake.aspx w4
+https://itsmarta.com/Ashby.aspx w3
+https://itsmarta.com/Vine-City.aspx w2
+https://itsmarta.com/Omni.aspx w1
+https://itsmarta.com/Five-Points.aspx w0
+https://itsmarta.com/Georgia-State.aspx e1
+https://itsmarta.com/King-Memorial.aspx e2
+https://itsmarta.com/Inman-Park.aspx e3
+https://itsmarta.com/Edgewood-Candler-Park.aspx e4
+https://itsmarta.com/East-Lake.aspx e5
+https://itsmarta.com/Decatur.aspx e6
+https://itsmarta.com/Avondale.aspx e7
+https://itsmarta.com/Kensington.aspx e8
+https://itsmarta.com/Indian-Creek.aspx e9
+https://itsmarta.com/Doraville.aspx ne10
+https://itsmarta.com/Chamblee.aspx ne9
+https://itsmarta.com/Brookhaven.aspx ne8 
+https://itsmarta.com/Lenox.aspx ne7
+https://itsmarta.com/Garnett.aspx s1
+https://itsmarta.com/West-End.aspx s2
+https://itsmarta.com/Oakland-City.aspx s3
+https://itsmarta.com/Lakewood.aspx s4
+https://itsmarta.com/East-Point.aspx s5
+https://itsmarta.com/College-Park.aspx s6
+https://itsmarta.com/Airport.aspx s7
+https://itsmarta.com/North-Springs.aspx n11
+https://itsmarta.com/Sandy-Springs.aspx n10
+https://itsmarta.com/Dunwoody.aspx n9
+https://itsmarta.com/Medical-Center.aspx n8
+https://itsmarta.com/Buckhead.aspx n7
+https://itsmarta.com/Lindbergh.aspx n6
+https://itsmarta.com/Arts-Center.aspx n5
+https://itsmarta.com/Midtown.aspx n4
+https://itsmarta.com/North-Ave.aspx n3
+https://itsmarta.com/Civic-Center.aspx n2
+https://itsmarta.com/Peachtree-Center.aspx n1
+https://itsmarta.com/Bankhead.aspx p4
