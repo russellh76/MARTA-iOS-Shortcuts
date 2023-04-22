@@ -1,0 +1,7 @@
+# ToDo List
+
+1. - [ ] Change Schedule code over to less interpreted version.
+2. - [ ] Update Schedule code to handle various destinations.
+3. - [ ] Update Prediction code to handle various destinations.
+4. - [ ] Expand these capabilities into iOS Widgets
+
