@@ -17,8 +17,8 @@ Link dump:
 6. Bus (unknown): http://labs.itsmarta.com/tm-gtfsrt-pos
 
 Apps:
-1. Pythonista: (Python environment for iOS): https://apps.apple.com/us/app/pythonista-3/id1085978097?ls=1
-2. Scriptable: (free Javascript environment for IOS): https://apps.apple.com/us/app/scriptable/id1405459188?uo=4
+1. Pythonista: (Python env for iOS): https://apps.apple.com/us/app/pythonista-3/id1085978097
+2. Scriptable: (free JS env for IOS): https://apps.apple.com/us/app/scriptable/id1405459188
 
 
 
