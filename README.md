@@ -8,6 +8,12 @@ There are 3 capabilities.
 2. Check MARTA schedule (from the web schedule)
 3. Check MARTA train prediction (via MARTA Labs API)
 
+ToDo List:
+- [ ] Change Schedule code over to less interpreted version.
+- [ ] Update Schedule code to handle various destinations.
+- [ ] Update Prediction code to handle various destinations.
+- [ ] Expand these capabilities into iOS Widgets
+
 Link dump:
 1. Train Location: http://labs.itsmarta.com/trains/
 2. Bus Location: http://labs.itsmarta.com/bustracker/
