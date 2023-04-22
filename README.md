@@ -19,8 +19,8 @@ There are 3 capabilities.
 2. List all active trains by direction.
 
 ## Link dump:
-1. Train Location: http://labs.itsmarta.com/trains/
-2. Bus Location: http://labs.itsmarta.com/bustracker/
+1. Train Location Map: http://labs.itsmarta.com/trains/
+2. Bus Location Map: http://labs.itsmarta.com/bustracker/
 3. Train GPS Location/Direction API: http://labs.itsmarta.com/signpost/trains
 4. Train Prediction API: http://labs.itsmarta.com/signpost/predictions
 5. Bus Location API: http://labs.itsmarta.com/routerapi/routers
