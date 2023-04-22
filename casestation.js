@@ -1,7 +1,7 @@
 
 
     var station = "";
-    station = "E6";
+    //station = "E6";
 
 
     var MartaStation = "";
@@ -121,7 +121,7 @@
         MartaStation=" Doraville ";
         break;
       default: 
-        MartaStation=" Decatur ";
+        MartaStation=" ERROR: "+station;
         break;
     } //*/
     
