@@ -1,3 +1,8 @@
+// This is code for the scriptable iOS app.
+// You can call it from a shortcut by opening URL 
+// scriptable:///run?scriptname=NextTrain&station=E6
+// note the arguments
+
 var rq = new Request("http://labs.itsmarta.com/signpost/predictions");
 var prediction = await rq.loadJSON();
 var speak = "";
