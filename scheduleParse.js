@@ -1,13 +1,7 @@
-
-
-
-
-
-
-
-
-
-
+// This is code for the scriptable iOS app.
+// You can call it from a shortcut by opening URL 
+// scriptable:///run?scriptname=scheduleParse&station=E6
+// note the arguments
 
 var url="https://itsmarta.com/Decatur.aspx";
 let wv=new WebView();
