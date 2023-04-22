@@ -1,6 +1,9 @@
 
 
-    var station = "E6";
+    var station = "";
+    station = "E6";
+
+
     var MartaStation = "";
     switch(station) {
       case "E1":  
