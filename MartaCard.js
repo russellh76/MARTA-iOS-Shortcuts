@@ -1,3 +1,9 @@
+// This is code for the scriptable iOS app.
+// You can call it from a shortcut by opening URL 
+// scriptable:///run?scriptname=MartaCard&name=Russell&card=12341234123412341234
+// note the arguments
+
+
 var card=args.queryParameters.card;
 var name=args.queryParameters.name;
 var js="";
