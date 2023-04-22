@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 var rq = new Request("http://labs.itsmarta.com/signpost/predictions");
 var prediction = await rq.loadJSON();
 var speak = "";
@@ -135,7 +128,3 @@ if (west < new Date("1/1/2200")) {
 }
 speak = encodeURI(speak);
 Safari.open("shortcuts://x-callback-url/run-shortcut?name=SpeakScript&input="+speak);
-
-
-
-
