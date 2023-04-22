@@ -14,7 +14,7 @@ Link dump:
 3. Train Locaiton API: http://labs.itsmarta.com/signpost/trains
 4. Train Prediction API: http://labs.itsmarta.com/signpost/predictions
 5. Bus Location API: http://labs.itsmarta.com/routerapi/routers
-6. Bus (unknown): labs.itsmarta.com/tm-gtfsrt-pos
+6. Bus (unknown): http://labs.itsmarta.com/tm-gtfsrt-pos
 
 Apps:
 1. Pythonista: (Python environment for iOS): https://apps.apple.com/us/app/pythonista-3/id1085978097?ls=1
