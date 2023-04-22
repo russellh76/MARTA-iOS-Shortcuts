@@ -14,6 +14,10 @@ There are 3 capabilities.
 - [ ] Update Prediction code to handle various destinations.
 - [ ] Expand these capabilities into iOS Widgets
 
+## Possible future functionality:
+1. List all active trains by destination.
+2. List all active trains by direction.
+
 ## Link dump:
 1. Train Location: http://labs.itsmarta.com/trains/
 2. Bus Location: http://labs.itsmarta.com/bustracker/
