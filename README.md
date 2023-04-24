@@ -17,6 +17,8 @@ There are 3 capabilities.
 ## Possible future functionality:
 1. List all active trains by destination.
 2. List all active trains by direction.
+3. How many trains?
+4. How many busses active in last 10 minutes.
 
 ## Link dump:
 1. Train Location Map: http://labs.itsmarta.com/trains/
