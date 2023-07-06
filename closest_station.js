@@ -83,6 +83,36 @@ var stations = {
         StationURL: "https://itsmarta.com/Bankhead.aspx",
         StationGPS: "33.77223,-84.42894"
   },
+  S1: {
+        MartaStation: " Garnett ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.7484910142787, -84.39594632329779"
+  },
+  S2: {
+        MartaStation: " West End ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.736036619930154, -84.41367813817436"
+  },
+  S3: {
+        MartaStation: " Oakland City ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.71692936002462, -84.42512787331452"
+  },
+  S4: {
+        MartaStation: " Lakewood / Ft. McPherson ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.7005387953148, -84.42951615848011"
+  },
+  S5: {
+        MartaStation: " East Point ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.67755787021818, -84.4405312672711"
+  },
+  S6: {
+        MartaStation: " College Park ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.65166248476533, -84.44880100072415"
+  },
   S7: {
         MartaStation: " Airport ",
         StationURL: "https://itsmarta.com/Airport.aspx",
