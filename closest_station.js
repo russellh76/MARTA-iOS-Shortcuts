@@ -6,27 +6,27 @@ var stations = {
   E1: {
         MartaStation: " Georgia State ",
         StationURL: "https://itsmarta.com/Georgia-State.aspx",
-        StationGPS: "33.75008,-84.38587"
+        StationGPS: "33.75018633457871, -84.38618046938421"
   },
   E2: {
         MartaStation: " King Memorial ",
         StationURL: "https://itsmarta.com/King-Memorial.aspx",
-        StationGPS: "33.75001,-84.37544"
+        StationGPS: "33.749923784168054, -84.37557557211754"
   },
   E3: {
         MartaStation: " Inman Park / Reynoldstown ",
         StationURL: "https://itsmarta.com/Inman-Park.aspx",
-        StationGPS: "33.75765,-84.35258"
+        StationGPS: "33.75767338612786, -84.35254451436396"
   },
   E4: {
         MartaStation: " Edgewood / Candler Park ",
         StationURL: "https://itsmarta.com/Edgewood-Candler-Park.aspx",
-        StationGPS: "33.76196,-84.33961"
+        StationGPS: "33.76191878812466, -84.33963930099395"
   },
   E5: {
         MartaStation: " East Lake ",
         StationURL: "https://itsmarta.com/East-Lake.aspx",
-        StationGPS: "33.76195,-84.33964"
+        StationGPS: "33.765148350874895, -84.31295850153049"
   },
   E6: {
         MartaStation: " Decatur ",
@@ -36,17 +36,17 @@ var stations = {
   E7: {
         MartaStation: " Avondale ",
         StationURL: "https://itsmarta.com/Avondale.aspx",
-        StationGPS: "33.77519,-84.28214"
+        StationGPS: "33.775100373911734, -84.28226687238848"
   },
   E8: {
         MartaStation: " Kensington ",
         StationURL: "https://itsmarta.com/Kensington.aspx",
-        StationGPS: "33.77265,-84.25205"
+        StationGPS: "33.77266478073744, -84.25148898193302"
   },
   E9: {
         MartaStation: " Indian Creek ",
         StationURL: "https://itsmarta.com/Indian-Creek.aspx",
-        StationGPS: "33.76981,-84.22965"
+        StationGPS: "33.76976549057783, -84.22967580099167"
   },
   W0: {
         MartaStation: " Five Points ",
@@ -56,32 +56,32 @@ var stations = {
   W1: {
         MartaStation: " Dome / G W C C / Philips / C N N ",
         StationURL: "https://itsmarta.com/Omni.aspx",
-        StationGPS: "33.75681,-84.39777"
+        StationGPS: "33.756520946164684, -84.39677637265507"
   },
   W2: {
         MartaStation: " Vine City ",
         StationURL: "https://itsmarta.com/Vine-City.aspx",
-        StationGPS: "33.75656,-84.40403"
+        StationGPS: "33.7565195661912, -84.40397417238654"
   },
   W3: {
         MartaStation: " Ashby ",
         StationURL: "https://itsmarta.com/Ashby.aspx",
-        StationGPS: "33.75628,-84.41697"
+        StationGPS: "33.75624413068095, -84.41690619533414"
   },
   W4: {
         MartaStation: " West Lake ",
         StationURL: "https://itsmarta.com/West-Lake.aspx",
-        StationGPS: "33.75328,-84.44543"
+        StationGPS: "33.75319504495991, -84.44524029802737"
   },
   W5: {
         MartaStation: " Hamilton E Holmes ",
         StationURL: "https://itsmarta.com/Hamilton-E-Holmes.aspx",
-        StationGPS: "33.75447,-84.47023"
+        StationGPS: "33.75438366530488, -84.47035377238693"
   },
   P4: {
         MartaStation: " Bankhead ",
         StationURL: "https://itsmarta.com/Bankhead.aspx",
-        StationGPS: "33.77223,-84.42894"
+        StationGPS: "33.77225494494861, -84.42886489802665"
   },
   S1: {
         MartaStation: " Garnett ",
@@ -131,7 +131,7 @@ var stations = {
   N3: {
         MartaStation: " North Avenue ",
         StationURL: "https://itsmarta.com/North-Ave.aspx",
-        StationGPS: "33.77313,-84.38690"
+        StationGPS: "33.77168350939747, -84.38702857184813"
   },
   N4: {
         MartaStation: " Midtown ",
