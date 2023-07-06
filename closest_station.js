@@ -4,14 +4,29 @@ var mylocation = await Location.current();//
 // log(mylocation.latitude);
 var stations = {
   E1: {
-        MartaStation: "Georgia State ",
+        MartaStation: " Georgia State ",
         StationURL: "https://itsmarta.com/Georgia-State.aspx",
-        StationGPS: ""
+        StationGPS: "33.75008,-84.38587"
+  },
+  E2: {
+        MartaStation: " King Memorial ",
+        StationURL: "https://itsmarta.com/King-Memorial.aspx",
+        StationGPS: "33.75001,-84.37544"
+  },
+  E3: {
+        MartaStation: " Inman Park / Reynoldstown ",
+        StationURL: "https://itsmarta.com/Inman-Park.aspx",
+        StationGPS: "33.75765,-84.35258"
   },
   E4: {
         MartaStation: " Edgewood / Candler Park ",
         StationURL: "https://itsmarta.com/Edgewood-Candler-Park.aspx",
         StationGPS: "33.76196,-84.33961"
+  },
+  E5: {
+        MartaStation: " East Lake ",
+        StationURL: "https://itsmarta.com/East-Lake.aspx",
+        StationGPS: "33.76195,-84.33964"
   },
   E6: {
         MartaStation: " Decatur ",
@@ -28,10 +43,45 @@ var stations = {
         StationURL: "https://itsmarta.com/Kensington.aspx",
         StationGPS: "33.77265,-84.25205"
   },
+  E9: {
+        MartaStation: " Indian Creek ",
+        StationURL: "https://itsmarta.com/Indian-Creek.aspx",
+        StationGPS: "33.76981,-84.22965"
+  },
   W0: {
         MartaStation: " Five Points ",
         StationURL: "https://itsmarta.com/Five-Points.aspx",
         StationGPS: "33.75392023598456,-84.39162662288796"
+  },
+  W1: {
+        MartaStation: " Dome / G W C C / Philips / C N N ",
+        StationURL: "https://itsmarta.com/Omni.aspx",
+        StationGPS: "33.75681,-84.39777"
+  },
+  W2: {
+        MartaStation: " Vine City ",
+        StationURL: "https://itsmarta.com/Vine-City.aspx",
+        StationGPS: "33.75656,-84.40403"
+  },
+  W3: {
+        MartaStation: " Ashby ",
+        StationURL: "https://itsmarta.com/Ashby.aspx",
+        StationGPS: "33.75628,-84.41697"
+  },
+  W4: {
+        MartaStation: " West Lake ",
+        StationURL: "https://itsmarta.com/West-Lake.aspx",
+        StationGPS: "33.75328,-84.44543"
+  },
+  W5: {
+        MartaStation: " Hamilton E Holmes ",
+        StationURL: "https://itsmarta.com/Hamilton-E-Holmes.aspx",
+        StationGPS: "33.75447,-84.47023"
+  },
+  P4: {
+        MartaStation: " Bankhead ",
+        StationURL: "https://itsmarta.com/Bankhead.aspx",
+        StationGPS: "33.77223,-84.42894"
   },
   S7: {
         MartaStation: " Airport ",
@@ -79,3 +129,4 @@ function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
 function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
+
