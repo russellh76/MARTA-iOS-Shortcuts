@@ -352,10 +352,10 @@ var stationName="";
 for (station in stations) {
    log(station)
    if (stations[station].StationPronunciation.length==""){
-    stationName = stationName + " ... " + stations[station].StationName;
+    stationName = stationName + stations[station].StationName + " ... ";
    }
    else {
-    stationName = stationName + " ... " + stations[station].StationPronunciation;
+    stationName = stationName + stations[station].StationPronunciation + " ... ";
    }
 }
 log(stationName)
