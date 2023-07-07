@@ -2,20 +2,46 @@
 // You can call it from a shortcut by opening URL 
 // scriptable:///run?scriptname=NextTrain&station=E6
 // note the arguments
+// arg station is the station identifier (use GPS if missing)
+// arg format specify "r" for relative time, default is absolute
+// arg output specify "n" for notification, default is spoken
+//
+// todo
+//   Convert absolute outputs from directional to destination (arrivalsa obj created)
+//   import GPS data and code to automatically use the nearest station
 
 var rq = new Request("http://labs.itsmarta.com/signpost/predictions");
 var prediction = await rq.loadJSON();
 var speak = "";
-var west, east, north, south, arrival;
+var west, east, north, south, arrival, dest;
+var arrivalsr = {};
+var arrivalsa = {};
 west = new Date("1/1/2200"); 
 east = new Date("1/1/2200"); 
 south = new Date("1/1/2200"); 
 north = new Date("1/1/2200"); 
-var station=args.queryParameters.station;
-
+if (args.queryParameters.station){
+  var station=args.queryParameters.station;
+} else {
+  var station="E6";
+}
+if (args.queryParameters.format){
+  var format=args.queryParameters.format;
+}
+if (args.queryParameters.output){
+  var outputtype=args.queryParameters.output;
+}
 let i = 0;
 while (i < prediction.length) {
   if (prediction[i].station.indexOf(station)>-1){
+    dest = prediction[i].destination;
+    if (typeof arrivalsr.dest === 'undefined') {
+      arrivalsr[dest] = prediction[i].seconds;
+      arrivalsa[dest] = new Date(prediction[i].nextArr);
+    } else if (prediction[i].seconds < arrivalsr.dest) {
+      arrivalsr[dest] = prediction[i].seconds;
+      arrivalsa[dest] = new Date(prediction[i].nextArr);
+    }
     if (prediction[i].direction.indexOf("E")>-1){
       arrival = new Date(prediction[i].nextArr);
       if (arrival < east) {
@@ -131,5 +157,34 @@ if (west < new Date("1/1/2200")) {
   }
   speak = speak + ".";
 }
-speak = encodeURI(speak);
-Safari.open("shortcuts://x-callback-url/run-shortcut?name=SpeakScript&input="+speak);
+if (format == "r") {
+  speak = "";
+  var count = 0;
+  for(var prop in arrivalsr) {
+    if(arrivalsr.hasOwnProperty(prop))
+      ++count;
+  }
+  if (count > 0) {
+    speak += "For Decatur Station: ";
+    for (const key in arrivalsr) {
+      var mins = Math.round(arrivalsr[key]/60)
+      speak += "The next train to "+ key + " arrives in " + mins + " minute";
+      if (mins > 1) {
+        speak += "s";
+      }
+      speak += ". ";
+    }
+  } else {
+    speak = "No arrival data for Decatur Station."
+  }
+}
+
+if (outputtype == "n") {
+  n = new Notification();
+  n.title = "Next train";
+  n.body = speak;
+  n.schedule();
+} else {
+  speak = encodeURI(speak);
+  Safari.open("shortcuts://x-callback-url/run-shortcut?name=SpeakScript&input="+speak);
+}
