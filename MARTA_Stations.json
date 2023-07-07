@@ -1,0 +1,198 @@
+
+var stations = {
+  E1: {
+        MartaStation: " Georgia State ",
+        StationURL: "https://itsmarta.com/Georgia-State.aspx",
+        StationGPS: "33.75018633457871, -84.38618046938421"
+  },
+  E2: {
+        MartaStation: " King Memorial ",
+        StationURL: "https://itsmarta.com/King-Memorial.aspx",
+        StationGPS: "33.749923784168054, -84.37557557211754"
+  },
+  E3: {
+        MartaStation: " Inman Park / Reynoldstown ",
+        StationURL: "https://itsmarta.com/Inman-Park.aspx",
+        StationGPS: "33.75767338612786, -84.35254451436396"
+  },
+  E4: {
+        MartaStation: " Edgewood / Candler Park ",
+        StationURL: "https://itsmarta.com/Edgewood-Candler-Park.aspx",
+        StationGPS: "33.76191878812466, -84.33963930099395"
+  },
+  E5: {
+        MartaStation: " East Lake ",
+        StationURL: "https://itsmarta.com/East-Lake.aspx",
+        StationGPS: "33.765148350874895, -84.31295850153049"
+  },
+  E6: {
+        MartaStation: " Decatur ",
+        StationURL: "https://itsmarta.com/Decatur.aspx",
+        StationGPS: "33.77462519237718,-84.29615194824973"
+  },
+  E7: {
+        MartaStation: " Avondale ",
+        StationURL: "https://itsmarta.com/Avondale.aspx",
+        StationGPS: "33.775100373911734, -84.28226687238848"
+  },
+  E8: {
+        MartaStation: " Kensington ",
+        StationURL: "https://itsmarta.com/Kensington.aspx",
+        StationGPS: "33.77266478073744, -84.25148898193302"
+  },
+  E9: {
+        MartaStation: " Indian Creek ",
+        StationURL: "https://itsmarta.com/Indian-Creek.aspx",
+        StationGPS: "33.76976549057783, -84.22967580099167"
+  },
+  W0: {
+        MartaStation: " Five Points ",
+        StationURL: "https://itsmarta.com/Five-Points.aspx",
+        StationGPS: "33.75392023598456,-84.39162662288796"
+  },
+  W1: {
+        MartaStation: " Dome / G W C C / Philips / C N N ",
+        StationURL: "https://itsmarta.com/Omni.aspx",
+        StationGPS: "33.756520946164684, -84.39677637265507"
+  },
+  W2: {
+        MartaStation: " Vine City ",
+        StationURL: "https://itsmarta.com/Vine-City.aspx",
+        StationGPS: "33.7565195661912, -84.40397417238654"
+  },
+  W3: {
+        MartaStation: " Ashby ",
+        StationURL: "https://itsmarta.com/Ashby.aspx",
+        StationGPS: "33.75624413068095, -84.41690619533414"
+  },
+  W4: {
+        MartaStation: " West Lake ",
+        StationURL: "https://itsmarta.com/West-Lake.aspx",
+        StationGPS: "33.75319504495991, -84.44524029802737"
+  },
+  W5: {
+        MartaStation: " Hamilton E Holmes ",
+        StationURL: "https://itsmarta.com/Hamilton-E-Holmes.aspx",
+        StationGPS: "33.75438366530488, -84.47035377238693"
+  },
+  P4: {
+        MartaStation: " Bankhead ",
+        StationURL: "https://itsmarta.com/Bankhead.aspx",
+        StationGPS: "33.77225494494861, -84.42886489802665"
+  },
+  S1: {
+        MartaStation: " Garnett ",
+        StationURL: "https://itsmarta.com/Garnett.aspx",
+        StationGPS: "33.7484910142787, -84.39594632329779"
+  },
+  S2: {
+        MartaStation: " West End ",
+        StationURL: "https://itsmarta.com/West-End.aspx",
+        StationGPS: "33.736036619930154, -84.41367813817436"
+  },
+  S3: {
+        MartaStation: " Oakland City ",
+        StationURL: "https://itsmarta.com/Oakland-City.aspx",
+        StationGPS: "33.71692936002462, -84.42512787331452"
+  },
+  S4: {
+        MartaStation: " Lakewood / Ft. McPherson ",
+        StationURL: "https://itsmarta.com/Lakewood.aspx",
+        StationGPS: "33.7005387953148, -84.42951615848011"
+  },
+  S5: {
+        MartaStation: " East Point ",
+        StationURL: "https://itsmarta.com/East-Point.aspx",
+        StationGPS: "33.67755787021818, -84.4405312672711"
+  },
+  S6: {
+        MartaStation: " College Park ",
+        StationURL: "https://itsmarta.com/College-Park.aspx",
+        StationGPS: "33.65166248476533, -84.44880100072415"
+  },
+  S7: {
+        MartaStation: " Airport ",
+        StationURL: "https://itsmarta.com/Airport.aspx",
+        StationGPS: "33.64080453587645,-84.44624731278977"
+  },
+  N1: {
+        MartaStation: " Peachtree Center ",
+        StationURL: "https://itsmarta.com/Peachtree-Center.aspx",
+        StationGPS: "33.75797266886301, -84.3878131023025"
+  },
+  N2: {
+        MartaStation: " Civic Center ",
+        StationURL: "https://itsmarta.com/Civic-Center.aspx",
+        StationGPS: "33.766569789581915, -84.38761890099283"
+  },
+  N3: {
+        MartaStation: " North Avenue ",
+        StationURL: "https://itsmarta.com/North-Ave.aspx",
+        StationGPS: "33.77168350939747, -84.38702857184813"
+  },
+  N4: {
+        MartaStation: " Midtown ",
+        StationURL: "https://itsmarta.com/Midtown.aspx",
+        StationGPS: "33.7811144283705, -84.38631161382303"
+  },
+  N5: {
+        MartaStation: " Arts Center ",
+        StationURL: "https://itsmarta.com/Arts-Center.aspx",
+        StationGPS: "33.78923625608165, -84.38727702887373"
+  },
+  N6: {
+        MartaStation: " Lindbergh Center ",
+        StationURL: "https://itsmarta.com/Lindbergh.aspx",
+        StationGPS: "33.823106342847396, -84.36944144668193"
+  },
+  N7: {
+        MartaStation: " Buckhead ",
+        StationURL: "https://itsmarta.com/Buckhead.aspx",
+        StationGPS: "33.848799445796175, -84.36836033830365"
+  },
+  N8: {
+        MartaStation: " Medical Center ",
+        StationURL: "https://itsmarta.com/Medical-Center.aspx",
+        StationGPS: "33.91066582663132, -84.3515712015336"
+  },
+  N9: {
+        MartaStation: " Dunwoody ",
+        StationURL: "https://itsmarta.com/Dunwoody.aspx",
+        StationGPS: "33.921257306833674, -84.34442045253438"
+  },
+  N10: {
+        MartaStation: " Sandy Springs ",
+        StationURL: "https://itsmarta.com/Sandy-Springs.aspx",
+        StationGPS: "33.93190113490794, -84.3506936886832"
+  },
+  N11: {
+        MartaStation: " North Springs ",
+        StationURL: "https://itsmarta.com/North-Springs.aspx",
+        StationGPS: "33.94502750398834, -84.35712289988743"
+  },
+  NE7: {
+        MartaStation: " Lenox ",
+        StationURL: "https://itsmarta.com/Lenox.aspx",
+        StationGPS: "33.84505206993194, -84.35862848657872"
+  },
+  NE8: {
+        MartaStation: " Brookhaven / Oglethorpe ",
+        StationURL: "https://itsmarta.com/Brookhaven.aspx",
+        StationGPS: "33.859975208994115, -84.33933304351426"
+  },
+  NE9: {
+        MartaStation: " Chamblee ",
+        StationURL: "https://itsmarta.com/Chamblee.aspx",
+        StationGPS: "33.88671281400198, -84.30757243995006"
+  },
+  NE10: {
+        MartaStation: " Doraville ",
+        StationURL: "https://itsmarta.com/Doraville.aspx",
+        StationGPS: "33.90291031759458, -84.2801348729308"
+  }
+}
+
+
+
+
+
