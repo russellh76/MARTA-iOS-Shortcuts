@@ -28,6 +28,7 @@ There are 3 capabilities.
 5. Bus Location API: http://labs.itsmarta.com/routerapi/routers
 6. Bus (unknown): http://labs.itsmarta.com/tm-gtfsrt-pos
 7. App Developer Resourcses: https://itsmarta.com/app-developer-resources.aspx
+8. MARTA GitHub page: https://github.com/itsmarta
 
 ## Apps:
 
