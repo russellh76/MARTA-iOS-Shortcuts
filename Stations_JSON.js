@@ -1,7 +1,7 @@
  //JSON document as javscript variable
 
 var stations = {
-  E1: {
+  "E1": {
         StationAbbreviation: "E1", 
         StationName: " Georgia State ",
         StationURL: "https://itsmarta.com/Georgia-State.aspx",
@@ -9,7 +9,7 @@ var stations = {
         StationCrossStreets: "Piedmont Avenue near Decatur Street", 
         StationGPS: "33.75018633457871, -84.38618046938421"
   },
-  E2: {
+  "E2": {
         StationAbbreviation: "E2", 
         StationName: " King Memorial ",
         StationURL: "https://itsmarta.com/King-Memorial.aspx",
@@ -17,7 +17,7 @@ var stations = {
         StationCrossStreets: "Decatur at Grant Street", 
         StationGPS: "33.749923784168054, -84.37557557211754"
   },
-  E3: {
+  "E3": {
         StationAbbreviation: "E3", 
         StationName: " Inman Park / Reynoldstown ",
         StationURL: "https://itsmarta.com/Inman-Park.aspx",
@@ -25,7 +25,7 @@ var stations = {
         StationCrossStreets: "DeKalb Avenue at Hurt Street", 
         StationGPS: "33.75767338612786, -84.35254451436396"
   },
-  E4:{
+  "E4":{
         StationAbbreviation: "E4", 
         StationName: " Edgewood / Candler Park ",
         StationURL: "https://itsmarta.com/Edgewood-Candler-Park.aspx",
@@ -33,7 +33,7 @@ var stations = {
         StationCrossStreets: "DeKalb Avenue at Oakdale Road", 
         StationGPS: "33.76191878812466, -84.33963930099395"
   },
-  E5: {
+  "E5": {
         StationAbbreviation: "E5", 
         StationName: " East Lake ",
         StationURL: "https://itsmarta.com/East-Lake.aspx",
@@ -41,7 +41,7 @@ var stations = {
         StationCrossStreets: "College Avenue and East Lake Road", 
         StationGPS: "33.765148350874895, -84.31295850153049"
   },
-  E6: {
+  "E6": {
         StationAbbreviation: "E6", 
         StationName: " Decatur ",
         StationURL: "https://itsmarta.com/Decatur.aspx",
@@ -49,7 +49,7 @@ var stations = {
         StationCrossStreets: "Church Street and Sycamore Street", 
         StationGPS: "33.77462519237718,-84.29615194824973"
   },
-  E7: {
+  "E7": {
         StationAbbreviation: "E7", 
         StationName: " Avondale ",
         StationURL: "https://itsmarta.com/Avondale.aspx",
@@ -57,7 +57,7 @@ var stations = {
         StationCrossStreets: "East Ponce De Leon Avenue near North Arcadia", 
         StationGPS: "33.775100373911734, -84.28226687238848"
   },
-  E8: {
+  "E8": {
         StationAbbreviation: "E8", 
         StationName: " Kensington ",
         StationURL: "https://itsmarta.com/Kensington.aspx",
@@ -65,7 +65,7 @@ var stations = {
         StationCrossStreets: "Kensington at Memorial Drive", 
         StationGPS: "33.77266478073744, -84.25148898193302"
   },
-  E9: {
+  "E9": {
         StationAbbreviation: "E9", 
         StationName: " Indian Creek ",
         StationURL: "https://itsmarta.com/Indian-Creek.aspx",
@@ -73,7 +73,7 @@ var stations = {
         StationCrossStreets: "Durham Road at I-285", 
         StationGPS: "33.76976549057783, -84.22967580099167"
   },
-  W0: {
+  "W0": {
         StationAbbreviation: "W0", 
         StationName: " Five Points ",
         StationURL: "https://itsmarta.com/Five-Points.aspx",
@@ -81,7 +81,7 @@ var stations = {
         StationCrossStreets: "Alabama at Peachtree Street", 
         StationGPS: "33.75392023598456,-84.39162662288796"
   },
-  W1: {
+  "W1": {
         StationAbbreviation: "W1", 
         StationName: " Dome / G W C C / Philips / C N N ",
         StationURL: "https://itsmarta.com/Omni.aspx",
@@ -89,7 +89,7 @@ var stations = {
         StationCrossStreets: "Centennial Olympic Park Dr NW near State Farm Arena", 
         StationGPS: "33.756520946164684, -84.39677637265507"
   },
-  W2: {
+  "W2": {
         StationAbbreviation: "W2", 
         StationName: " Vine City ",
         StationURL: "https://itsmarta.com/Vine-City.aspx",
@@ -97,7 +97,7 @@ var stations = {
         StationCrossStreets: "Rhodes Street near Northside Drive", 
         StationGPS: "33.7565195661912, -84.40397417238654"
   },
-  W3: {
+  "W3": {
         StationAbbreviation: "W3", 
         StationName: " Ashby ",
         StationURL: "https://itsmarta.com/Ashby.aspx",
@@ -105,7 +105,7 @@ var stations = {
         StationCrossStreets: "Joseph E. Lowery at Carter Street", 
         StationGPS: "33.75624413068095, -84.41690619533414"
   },
-  W4: {
+  "W4": {
         StationAbbreviation: "W4", 
         StationName: " West Lake ",
         StationURL: "https://itsmarta.com/West-Lake.aspx",
@@ -113,7 +113,7 @@ var stations = {
         StationCrossStreets: "Anderson Avenue at West Lake Avenue at M. L. King Jr. Drive", 
         StationGPS: "33.75319504495991, -84.44524029802737"
   },
-  W5: {
+  "W5": {
         StationAbbreviation: "W5", 
         StationName: " Hamilton E Holmes ",
         StationURL: "https://itsmarta.com/Hamilton-E-Holmes.aspx",
@@ -121,7 +121,7 @@ var stations = {
         StationCrossStreets: "H. E. Holmes Drive at M. L. King Jr. Drive", 
         StationGPS: "33.75438366530488, -84.47035377238693"
   },
-  P4: {
+  "P4": {
         StationAbbreviation: "P4", 
         StationName: " Bankhead ",
         StationURL: "https://itsmarta.com/Bankhead.aspx",
@@ -129,7 +129,7 @@ var stations = {
         StationCrossStreets: "Bankhead Hwy near Marietta Boulevard", 
         StationGPS: "33.77225494494861, -84.42886489802665"
   },
-  S1: {
+  "S1": {
         StationAbbreviation: "S1", 
         StationName: " Garnett ",
         StationURL: "https://itsmarta.com/Garnett.aspx",
@@ -137,7 +137,7 @@ var stations = {
         StationCrossStreets: "Brotherton Street at Peachtree Street", 
         StationGPS: "33.7484910142787, -84.39594632329779"
   },
-  S2: {
+  "S2": {
         StationAbbreviation: "S2", 
         StationName: " West End ",
         StationURL: "https://itsmarta.com/West-End.aspx",
@@ -145,7 +145,7 @@ var stations = {
         StationCrossStreets: "Lee Street at Oglethorpe", 
         StationGPS: "33.736036619930154, -84.41367813817436"
   },
-  S3: {
+  "S3": {
         StationAbbreviation: "S3", 
         StationName: " Oakland City ",
         StationURL: "https://itsmarta.com/Oakland-City.aspx",
@@ -153,7 +153,7 @@ var stations = {
         StationCrossStreets: "Lee Street at Arden Avenue", 
         StationGPS: "33.71692936002462, -84.42512787331452"
   },
-  S4: {
+  "S4": {
         StationAbbreviation: "S4", 
         StationName: " Lakewood / Ft. McPherson ",
         StationURL: "https://itsmarta.com/Lakewood.aspx",
@@ -161,7 +161,7 @@ var stations = {
         StationCrossStreets: "Lee Street at Lakewood Avenue", 
         StationGPS: "33.7005387953148, -84.42951615848011"
   },
-  S5: {
+  "S5": {
         StationAbbreviation: "S5", 
         StationName: " East Point ",
         StationURL: "https://itsmarta.com/East-Point.aspx",
@@ -169,7 +169,7 @@ var stations = {
         StationCrossStreets: "East Main Street at Washington Road", 
         StationGPS: "33.67755787021818, -84.4405312672711"
   },
-  S6: {
+  "S6": {
         StationAbbreviation: "S6", 
         StationName: " College Park ",
         StationURL: "https://itsmarta.com/College-Park.aspx",
@@ -177,7 +177,7 @@ var stations = {
         StationCrossStreets: "East Main Street at Howard Avenue", 
         StationGPS: "33.65166248476533, -84.44880100072415"
   },
-  S7: {
+  "S7": {
         StationAbbreviation: "S7", 
         StationName: " Airport ",
         StationURL: "https://itsmarta.com/Airport.aspx",
@@ -185,7 +185,7 @@ var stations = {
         StationCrossStreets: "ATL", 
         StationGPS: "33.64080453587645,-84.44624731278977"
   },
-  N1: {
+  "N1": {
         StationAbbreviation: "N1", 
         StationName: " Peachtree Center ",
         StationURL: "https://itsmarta.com/Peachtree-Center.aspx",
@@ -193,7 +193,7 @@ var stations = {
         StationCrossStreets: "Peachtree Street at Andrew Young Boulevard", 
         StationGPS: "33.75797266886301, -84.3878131023025"
   },
-  N2: {
+  "N2": {
         StationAbbreviation: "N2", 
         StationName: " Civic Center ",
         StationURL: "https://itsmarta.com/Civic-Center.aspx",
@@ -201,7 +201,7 @@ var stations = {
         StationCrossStreets: "West Peachtree Street at Pine Street", 
         StationGPS: "33.766569789581915, -84.38761890099283"
   },
-  N3: {
+  "N3": {
         StationAbbreviation: "N3", 
         StationName: " North Avenue ",
         StationURL: "https://itsmarta.com/North-Ave.aspx",
@@ -209,7 +209,7 @@ var stations = {
         StationCrossStreets: "Intersection of West Peachtree Street and North Avenue", 
         StationGPS: "33.77168350939747, -84.38702857184813"
   },
-  N4: {
+  "N4": {
         StationAbbreviation: "N4", 
         StationName: " Midtown ",
         StationURL: "https://itsmarta.com/Midtown.aspx",
@@ -217,7 +217,7 @@ var stations = {
         StationCrossStreets: "10th Street near West Peachtree Street", 
         StationGPS: "33.7811144283705, -84.38631161382303"
   },
-  N5: {
+  "N5": {
         StationAbbreviation: "N5", 
         StationName: " Arts Center ",
         StationURL: "https://itsmarta.com/Arts-Center.aspx",
@@ -225,7 +225,7 @@ var stations = {
         StationCrossStreets: "West Peachtree Street at 15th street", 
         StationGPS: "33.78923625608165, -84.38727702887373"
   },
-  N6: {
+  "N6": {
         StationAbbreviation: "N6", 
         StationName: " Lindbergh Center ",
         StationURL: "https://itsmarta.com/Lindbergh.aspx",
@@ -233,7 +233,7 @@ var stations = {
         StationCrossStreets: "Piedmont Road at Lindbergh Drive", 
         StationGPS: "33.823106342847396, -84.36944144668193"
   },
-  N7: {
+  "N7": {
         StationAbbreviation: "N7", 
         StationName: " Buckhead ",
         StationURL: "https://itsmarta.com/Buckhead.aspx",
@@ -241,7 +241,7 @@ var stations = {
         StationCrossStreets: "Peachtree Road at GA 400", 
         StationGPS: "33.848799445796175, -84.36836033830365"
   },
-  N8: {
+  "N8": {
         StationAbbreviation: "N8", 
         StationName: " Medical Center ",
         StationURL: "https://itsmarta.com/Medical-Center.aspx",
@@ -249,7 +249,7 @@ var stations = {
         StationCrossStreets: "Peachtree Dunwoody at Lake Hearn Drive", 
         StationGPS: "33.91066582663132, -84.3515712015336"
   },
-  N9: {
+  "N9": {
         StationAbbreviation: "N9", 
         StationName: " Dunwoody ",
         StationURL: "https://itsmarta.com/Dunwoody.aspx",
@@ -257,7 +257,7 @@ var stations = {
         StationCrossStreets: "Hammond Drive at Perimeter Center Parkway", 
         StationGPS: "33.921257306833674, -84.34442045253438"
   },
-  N10:{
+  "N10":{
         StationAbbreviation: "N10", 
         StationName: " Sandy Springs ",
         StationURL: "https://itsmarta.com/Sandy-Springs.aspx",
@@ -265,7 +265,7 @@ var stations = {
         StationCrossStreets: "Abernathy Road / Perimeter Center West & Mt. Vernon Hwy", 
         StationGPS: "33.93190113490794, -84.3506936886832"
   },
-  N11:{
+  "N11":{
         StationAbbreviation: "N11", 
         StationName: " North Springs ",
         StationURL: "https://itsmarta.com/North-Springs.aspx",
@@ -273,7 +273,7 @@ var stations = {
         StationCrossStreets: "East of GA 400 and west of Peachtree Dunwoody Road", 
         StationGPS: "33.94502750398834, -84.35712289988743"
   },
-  NE7: {
+  "NE7": {
         StationAbbreviation: "NE7", 
         StationName: " Lenox ",
         StationURL: "https://itsmarta.com/Lenox.aspx",
@@ -281,7 +281,7 @@ var stations = {
         StationCrossStreets: "East Paces Ferry Road at Lenox Road", 
         StationGPS: "33.84505206993194, -84.35862848657872"
   },
-  NE8: {
+  "NE8": {
         StationAbbreviation: "NE8", 
         StationName: " Brookhaven / Oglethorpe ",
         StationURL: "https://itsmarta.com/Brookhaven.aspx",
@@ -289,7 +289,7 @@ var stations = {
         StationCrossStreets: "Peachtree Road at Dresden Drive", 
         StationGPS: "33.859975208994115, -84.33933304351426"
   },
-  NE9: {
+  "NE9": {
         StationAbbreviation: "NE9", 
         StationName: " Chamblee ",
         StationURL: "https://itsmarta.com/Chamblee.aspx",
@@ -297,7 +297,7 @@ var stations = {
         StationCrossStreets: "Peachtree Road at Chamblee-Tucker Road", 
         StationGPS: "33.88671281400198, -84.30757243995006"
   },
-  NE10:{
+  "NE10":{
         StationAbbreviation: "NE10", 
         StationName: " Doraville ",
         StationURL: "https://itsmarta.com/Doraville.aspx",
