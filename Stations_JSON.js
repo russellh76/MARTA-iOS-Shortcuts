@@ -85,8 +85,8 @@ var stations = {
         StationAbbreviation: "W1", 
         MartaStation: " Dome / G W C C / Philips / C N N ",
         StationURL: "https://itsmarta.com/Omni.aspx",
-        StationAddress: "", 
-        StationCrossStreets: "", 
+        StationAddress: "100 Centennial Olympic Park Dr NW, Atlanta, GA 30303", 
+        StationCrossStreets: "Centennial Olympic Park Dr NW near State Farm Arena", 
         StationGPS: "33.756520946164684, -84.39677637265507"
   },
   W2: {
